@@ -1,0 +1,37 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+.fcontaner{
+  height: 60vh;
+  display: flex;
+  border: 2px solid blue;
+  padding: 12px;
+  margin: 12px;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  z-index: 9;
+  height: 100vh;
+}
